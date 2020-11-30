@@ -1,4 +1,5 @@
 # mingo
+> Fork to solve hash collision : https://github.com/kofrasa/mingo/issues/62
 
 MongoDB query language for in-memory objects
 
