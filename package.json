@@ -1,7 +1,7 @@
 {
-  "name": "mingo",
-  "version": "3.1.0",
-  "description": "MongoDB query language for in-memory objects",
+  "name": "mingo-fork-no-hash",
+  "version": "3.1.1",
+  "description": "MongoDB query language for in-memory objects without hash computation",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
   "typings": "./lib/index.d.ts",
