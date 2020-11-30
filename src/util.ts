@@ -409,14 +409,10 @@ function encode(value: any): string {
  * @param value
  * @returns {number|null}
  */
-export function hashCode(value: any): number | null {
+export function hashCode(value: any): string | null {
   if (isNil(value)) return null
 
-  let hash = 0
-  let s = encode(value)
-  let i = s.length
-  while (i) hash = ((hash << 5) - hash) ^ s.charCodeAt(--i)
-  return hash >>> 0
+  return encode(value)
 }
 
 /**
